@@ -3,10 +3,10 @@
 /**
  * _abs - value absolute
  *
- * @n: The int to print
+ * @i: The int to print
  * Return: Always 0.
  */
-int _abs(int n)
+int _abs(int i)
 {
 	if (i >= 0)
 	{
@@ -16,5 +16,4 @@ int _abs(int n)
 	{
 		return (i * -1);
 	}
-
 }
